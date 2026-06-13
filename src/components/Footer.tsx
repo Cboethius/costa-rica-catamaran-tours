@@ -12,7 +12,7 @@ export function Footer() {
           </p>
           <p className="mt-2 max-w-sm text-sm text-cr-white/85">
             Shared tours, private charters, sunset cruises &amp; full day adventures
-            — departing daily from Flamingo &amp; Tamarindo.
+            departing daily from Flamingo &amp; Tamarindo.
           </p>
         </div>
         <div>

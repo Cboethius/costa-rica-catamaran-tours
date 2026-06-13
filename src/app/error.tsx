@@ -13,7 +13,7 @@ export default function Error({
         Something went wrong
       </h1>
       <p className="mt-3 text-gray-600">
-        The page could not load. Try refreshing — if the problem persists, restart
+        The page could not load. Try refreshing. If the problem persists, restart
         the dev server with{" "}
         <code className="rounded bg-gray-100 px-1.5 py-0.5 text-sm">npm run dev</code>.
       </p>

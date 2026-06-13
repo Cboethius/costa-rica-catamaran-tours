@@ -42,9 +42,9 @@ export const defaultTours: Tour[] = [
       "Pacific sunset from the deck",
     ],
     description:
-      "Our most popular experience.\n\nSpend the afternoon sailing the Pacific Ocean before dropping anchor in a secluded bay for snorkeling and water activities.\n\nAs the day comes to an end, sit back with your favourite drink and watch the sky explode into shades of orange, pink and gold as the sun sets over the Pacific.\n\nIt's a Costa Rica bucket-list experience — couples, families, and solo travelers.",
+      "Our most popular experience.\n\nSpend the afternoon sailing the Pacific Ocean before dropping anchor in a secluded bay for snorkeling and water activities.\n\nAs the day comes to an end, sit back with your favourite drink and watch the sky explode into shades of orange, pink and gold as the sun sets over the Pacific.\n\nIt's a Costa Rica bucket-list experience. Ideal for couples, families, and solo travelers.",
     longDescription:
-      "Our most popular experience.\n\nSpend the afternoon sailing the Pacific Ocean before dropping anchor in a secluded bay for snorkeling and water activities.\n\nAs the day comes to an end, sit back with your favourite drink and watch the sky explode into shades of orange, pink and gold as the sun sets over the Pacific.\n\nIt's a Costa Rica bucket-list experience — couples, families, and solo travelers.\n\nApproximate duration: 4–5 hours. Check-in 30–45 minutes before departure. Departure early afternoon around 2pm, return shortly after sunset.",
+      "Our most popular experience.\n\nSpend the afternoon sailing the Pacific Ocean before dropping anchor in a secluded bay for snorkeling and water activities.\n\nAs the day comes to an end, sit back with your favourite drink and watch the sky explode into shades of orange, pink and gold as the sun sets over the Pacific.\n\nIt's a Costa Rica bucket-list experience. Ideal for couples, families, and solo travelers.\n\nApproximate duration: 4–5 hours. Check-in 30–45 minutes before departure. Departure early afternoon around 2pm, return shortly after sunset.",
     image: stockImages.sunset,
     active: true,
     sortOrder: 2,
@@ -82,9 +82,9 @@ export const defaultTours: Tour[] = [
       "Professional crew handles everything",
     ],
     description:
-      "Your boat. Your day. Your adventure.\n\nEnjoy the freedom to create your own experience while our professional crew takes care of everything.\n\nLuxury, privacy and unforgettable memories await — couples, families, and solo travelers.",
+      "Your boat. Your day. Your adventure.\n\nEnjoy the freedom to create your own experience while our professional crew takes care of everything.\n\nLuxury, privacy and unforgettable memories await. Ideal for couples, families, and solo travelers.",
     longDescription:
-      "Want something truly special? Our private catamaran charters are perfect for families, wedding groups, honeymoons, corporate events, birthday celebrations, bachelor & bachelorette parties, and multi-generational family gatherings.\n\nEnjoy the freedom to create your own experience while our professional crew takes care of everything. Luxury, privacy and unforgettable memories await — couples, families, and solo travelers.",
+      "Want something truly special? Our private catamaran charters are perfect for families, wedding groups, honeymoons, corporate events, birthday celebrations, bachelor & bachelorette parties, and multi-generational family gatherings.\n\nEnjoy the freedom to create your own experience while our professional crew takes care of everything. Luxury, privacy and unforgettable memories await. Ideal for couples, families, and solo travelers.",
     image: stockImages.sunset,
     active: true,
     sortOrder: 4,
@@ -102,9 +102,9 @@ export const defaultTours: Tour[] = [
       "Options for certified divers & beginners",
     ],
     description:
-      "Discover Costa Rica beneath the surface. Half-day scuba diving experiences along the Pacific coast, with options for certified divers and those looking to try diving for the first time.\n\nEach dive trip varies by site, conditions, and operator — we'll help you find the best fit for your dates and experience level. Couples, families, and solo travelers.",
+      "Discover Costa Rica beneath the surface. Half-day scuba diving experiences along the Pacific coast, with options for certified divers and those looking to try diving for the first time.\n\nEach dive trip varies by site, conditions, and operator. We'll help you find the best fit for your dates and experience level. Couples, families, and solo travelers.",
     longDescription:
-      "Discover Costa Rica beneath the surface. Half-day scuba diving experiences along the Pacific coast, with options for certified divers and those looking to try diving for the first time.\n\nEach dive trip varies by site, conditions, and operator — we'll help you find the best fit for your dates and experience level.\n\nCouples, families, and solo travelers.\n\nDuration and itinerary depend on the selected dive operator and your group's experience. Contact us with your preferred dates and we'll confirm availability and details.",
+      "Discover Costa Rica beneath the surface. Half-day scuba diving experiences along the Pacific coast, with options for certified divers and those looking to try diving for the first time.\n\nEach dive trip varies by site, conditions, and operator. We'll help you find the best fit for your dates and experience level.\n\nCouples, families, and solo travelers.\n\nDuration and itinerary depend on the selected dive operator and your group's experience. Contact us with your preferred dates and we'll confirm availability and details.",
     image: stockImages.scuba,
     active: true,
     sortOrder: 5,
@@ -122,12 +122,32 @@ export const defaultTours: Tour[] = [
       "Options for certified freedivers & beginners",
     ],
     description:
-      "Experience the ocean on a single breath. Half-day freediving experiences along Costa Rica's Pacific coast, with options for certified freedivers and those new to the sport.\n\nEach session varies by site, conditions, and operator — we'll help you find the best fit for your dates and experience level. Couples, families, and solo travelers.",
+      "Experience the ocean on a single breath. Half-day freediving experiences along Costa Rica's Pacific coast, with options for certified freedivers and those new to the sport.\n\nEach session varies by site, conditions, and operator. We'll help you find the best fit for your dates and experience level. Couples, families, and solo travelers.",
     longDescription:
-      "Experience the ocean on a single breath. Half-day freediving experiences along Costa Rica's Pacific coast, with options for certified freedivers and those new to the sport.\n\nEach session varies by site, conditions, and operator — we'll help you find the best fit for your dates and experience level.\n\nCouples, families, and solo travelers.\n\nDuration and itinerary depend on the selected operator and your group's experience. Contact us with your preferred dates and we'll confirm availability and details.",
+      "Experience the ocean on a single breath. Half-day freediving experiences along Costa Rica's Pacific coast, with options for certified freedivers and those new to the sport.\n\nEach session varies by site, conditions, and operator. We'll help you find the best fit for your dates and experience level.\n\nCouples, families, and solo travelers.\n\nDuration and itinerary depend on the selected operator and your group's experience. Contact us with your preferred dates and we'll confirm availability and details.",
     image: stockImages.freediving,
     active: true,
     sortOrder: 6,
+    priceUsd: null,
+  }),
+  withDetails({
+    id: "spearfishing",
+    slug: "spearfishing",
+    name: "Spearfishing",
+    type: "shared",
+    duration: "",
+    highlights: [
+      "Half-day & full-day programs",
+      "Discover course, Spearo course & reef trips",
+      "Blue water offshore hunts (8 hours)",
+    ],
+    description:
+      "Half-day and full-day spearfishing courses and trips on the Gold Coast. Discover Spearfishing intro, Spearo course, reef hunts, and blue water offshore trips from Tamarindo and Flamingo marina.",
+    longDescription:
+      "Half-day and full-day spearfishing courses and trips along Costa Rica's Gold Coast, from Tamarindo to Flamingo marina.\n\nPrograms include Discover Spearfishing (half day, approx. 5 hours), Evolution Spearo course (multi-day), reef trips to Catalina Islands and Potrero Bay, and full-day blue water hunts offshore.\n\nContact us with your preferred dates and experience level and we will confirm availability, check-in time, and the best program for you.",
+    image: stockImages.freediving,
+    active: true,
+    sortOrder: 7,
     priceUsd: null,
   }),
 ];

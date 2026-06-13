@@ -107,13 +107,15 @@ export type TourSpearfishingOffering = {
   title: string;
   tagline: string;
   body: string;
+  duration?: string;
+  format?: string;
+  prerequisites?: string[];
+  courseContent?: string[];
+  included?: string[];
 };
 
 export type TourSpearfishing = {
-  partnerName: string;
-  partnerUrl: string;
-  location: string;
-  intro: string;
+  requirements: string[];
   offerings: TourSpearfishingOffering[];
   note: string;
 };

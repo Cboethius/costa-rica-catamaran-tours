@@ -132,7 +132,7 @@ export function TourDetailContent({
 
       {/* Two-column overview */}
       <div className="mt-8 grid gap-10 lg:grid-cols-2 lg:gap-12 lg:items-start">
-        {/* Left — story, schedule, what to bring */}
+        {/* Left: story, schedule, what to bring */}
         <div className="space-y-8">
           <div>
             <SectionLabel>Overview</SectionLabel>
@@ -181,7 +181,7 @@ export function TourDetailContent({
           </div>
         </div>
 
-        {/* Right — your day + included */}
+        {/* Right: your day + included */}
         <div className="space-y-8 lg:sticky lg:top-24">
           <div className="card p-5 md:p-6">
             <SectionLabel>Itinerary</SectionLabel>
@@ -203,11 +203,14 @@ export function TourDetailContent({
 
       {details.spearfishing && (
         <div className="mt-10 card p-5 md:p-8">
-          <SectionLabel>Partner experience</SectionLabel>
-          <SectionTitle>Spearfishing with {details.spearfishing.partnerName}</SectionTitle>
-          <p className="mt-3 text-sm text-cr-blue/70">{details.spearfishing.location}</p>
-          <OverviewParagraphs text={details.spearfishing.intro} />
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+          <SectionLabel>Spearfishing</SectionLabel>
+          <SectionTitle>
+            What are the requirements to take part in a spearfishing tour?
+          </SectionTitle>
+          <div className="mt-4">
+            <CheckList items={details.spearfishing.requirements} variant="bring" />
+          </div>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2">
             {details.spearfishing.offerings.map((offering) => (
               <div
                 key={offering.title}
@@ -217,19 +220,72 @@ export function TourDetailContent({
                 <p className="mt-1 text-xs font-bold uppercase tracking-wide text-cr-blue/55">
                   {offering.tagline}
                 </p>
-                <p className="mt-2 text-sm leading-relaxed text-cr-blue/85">{offering.body}</p>
+                {(offering.duration || offering.format) && (
+                  <dl className="mt-3 space-y-1.5 text-sm text-cr-blue/80">
+                    {offering.duration && (
+                      <div className="flex gap-2">
+                        <dt className="shrink-0 font-bold text-cr-blue/60">Duration:</dt>
+                        <dd>{offering.duration}</dd>
+                      </div>
+                    )}
+                    {offering.format && (
+                      <div className="flex gap-2">
+                        <dt className="shrink-0 font-bold text-cr-blue/60">Format:</dt>
+                        <dd>{offering.format}</dd>
+                      </div>
+                    )}
+                  </dl>
+                )}
+                <p className="mt-3 text-sm leading-relaxed text-cr-blue/85">{offering.body}</p>
+                {offering.courseContent && offering.courseContent.length > 0 && (
+                  <div className="mt-4 border-t border-cr-blue/10 pt-3">
+                    <p className="text-xs font-bold uppercase tracking-wide text-cr-blue/55">
+                      Course content
+                    </p>
+                    <ul className="mt-2 space-y-1.5">
+                      {offering.courseContent.map((item) => (
+                        <li key={item} className="flex gap-2 text-sm leading-snug text-cr-blue/85">
+                          <span className="shrink-0 font-bold text-cr-green">✓</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {offering.prerequisites && offering.prerequisites.length > 0 && (
+                  <div className="mt-4 border-t border-cr-blue/10 pt-3">
+                    <p className="text-xs font-bold uppercase tracking-wide text-cr-blue/55">
+                      Prerequisites
+                    </p>
+                    <ul className="mt-2 space-y-1.5">
+                      {offering.prerequisites.map((item) => (
+                        <li key={item} className="flex gap-2 text-sm leading-snug text-cr-blue/85">
+                          <span className="shrink-0 font-bold text-cr-blue">•</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {offering.included && offering.included.length > 0 && (
+                  <div className="mt-4 border-t border-cr-blue/10 pt-3">
+                    <p className="text-xs font-bold uppercase tracking-wide text-cr-blue/55">
+                      Included
+                    </p>
+                    <ul className="mt-2 space-y-1.5">
+                      {offering.included.map((item) => (
+                        <li key={item} className="flex gap-2 text-sm leading-snug text-cr-blue/85">
+                          <span className="shrink-0 font-bold text-cr-green">✓</span>
+                          <span>{item}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             ))}
           </div>
           <p className="mt-6 text-sm leading-relaxed text-cr-blue/70">{details.spearfishing.note}</p>
-          <a
-            href={details.spearfishing.partnerUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-4 inline-flex text-sm font-bold text-cr-blue underline-offset-2 hover:underline"
-          >
-            Learn more at {details.spearfishing.partnerName} →
-          </a>
         </div>
       )}
 
