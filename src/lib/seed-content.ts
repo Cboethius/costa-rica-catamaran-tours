@@ -49,8 +49,8 @@ export const defaultSiteContent: SiteContent = {
     image: stockImages.beach,
   },
   sharedTours: {
-    title: "Perfect For Couples, Families & Solo Travelers",
-    subtitle: "Tours",
+    title: "Tours",
+    subtitle: "",
   },
   privateCharters: {
     title: "Your Boat. Your Day. Your Adventure.",

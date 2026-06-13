@@ -17,7 +17,7 @@ export function TourCards({
   return (
     <RevealSection id="tours" className="section-anchor section-padding bg-cr-white">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
-        <SectionHeader eyebrow={sharedSubtitle} title={sharedTitle} />
+        <SectionHeader title={sharedTitle} />
         <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {listed.map((tour, i) => (
             <div key={tour.id} style={{ animationDelay: `${i * 100}ms` }}>

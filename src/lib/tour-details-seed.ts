@@ -15,7 +15,7 @@ const catamaranDayStart = dayAtSea.steps.slice(0, 4);
 export const tourDetailsBySlug: Record<string, TourDetails> = {
   "morning-cruise": {
     overview:
-      "Start your day with sunshine, calm seas and unforgettable ocean views. A relaxed morning sailing adventure along Guanacaste's Gold Coast — perfect for couples, families, and solo travelers who want to experience Costa Rica's coastline before spending the afternoon exploring.",
+      "Start your day with sunshine, calm seas and unforgettable ocean views. A relaxed morning sailing adventure along Guanacaste's Gold Coast — couples, families, and solo travelers who want to experience Costa Rica's coastline before spending the afternoon exploring.",
     schedule: {
       duration: "Approximate Duration: 4 Hours",
       checkIn,
@@ -49,7 +49,7 @@ export const tourDetailsBySlug: Record<string, TourDetails> = {
   },
   "full-day": {
     overview:
-      "The ultimate Gold Coast experience. A full day on the water with extended sailing, multiple swim and snorkel stops, paddleboarding, a full meal and open bar — perfect for couples, families, and solo travelers who want to soak up every moment of Costa Rica's Pacific paradise.",
+      "The ultimate Gold Coast experience. A full day on the water with extended sailing, multiple swim and snorkel stops, paddleboarding, a full meal and open bar — couples, families, and solo travelers who want to soak up every moment of Costa Rica's Pacific paradise.",
     schedule: {
       duration: "Approximate Duration: 7–8 Hours",
       checkIn,
@@ -118,7 +118,7 @@ export const tourDetailsBySlug: Record<string, TourDetails> = {
   },
   "scuba-diving": {
     overview:
-      "Discover Costa Rica beneath the surface. Half-day scuba diving experiences along the Pacific coast, with options for certified divers and those looking to try diving for the first time. Perfect for couples, families, and solo travelers — we'll help you find the best operator for your dates and experience level.",
+      "Discover Costa Rica beneath the surface. Half-day scuba diving experiences along the Pacific coast, with options for certified divers and those looking to try diving for the first time. Couples, families, and solo travelers — we'll help you find the best operator for your dates and experience level.",
     schedule: {
       duration: "Approximate Duration: Half Day (4–5 Hours)",
       checkIn,
@@ -163,7 +163,7 @@ export const tourDetailsBySlug: Record<string, TourDetails> = {
   },
   freediving: {
     overview:
-      "Experience the ocean on a single breath. Half-day freediving experiences along Costa Rica's clear Pacific waters, with options for certified freedivers and those new to the sport. Perfect for couples, families, and solo travelers — we'll match you with the right operator for your dates and ability.",
+      "Experience the ocean on a single breath. Half-day freediving experiences along Costa Rica's clear Pacific waters, with options for certified freedivers and those new to the sport. Couples, families, and solo travelers — we'll match you with the right operator for your dates and ability.",
     schedule: {
       duration: "Approximate Duration: Half Day (3–5 Hours)",
       checkIn,

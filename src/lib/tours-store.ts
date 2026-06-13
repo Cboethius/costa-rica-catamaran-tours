@@ -19,6 +19,16 @@ function mergeTourDetails(
   };
 }
 
+function stripAudienceHighlight(highlights: string[] | undefined): string[] {
+  if (!highlights?.length) return [];
+  return highlights.filter(
+    (item) =>
+      !/^(perfect for )?couples, families, and solo travelers$/i.test(
+        item.trim(),
+      ),
+  );
+}
+
 function normalizeTour(tour: Tour): Tour {
   const seed = defaultTours.find((t) => t.id === tour.id);
   const codeDetails = detailsForTour(tour.slug) ?? seed?.details;
@@ -28,7 +38,7 @@ function normalizeTour(tour: Tour): Tour {
     ...seed,
     ...tour,
     duration: tour.duration || details?.schedule.duration.replace(/^Approximate Duration: /, "") || "",
-    highlights: tour.highlights ?? seed?.highlights ?? [],
+    highlights: stripAudienceHighlight(tour.highlights ?? seed?.highlights),
     details,
   };
 }
