@@ -127,3 +127,13 @@ body {
   opacity: 0;
   transform: translateY(2.5rem);
 }
+
+.tour-carousel-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.tour-carousel-scroll::-webkit-scrollbar {
+  display: none;
+}

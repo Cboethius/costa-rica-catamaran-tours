@@ -33,10 +33,9 @@ export function Header() {
         <div className="flex items-center gap-2">
           <Link
             href="/book"
-            className="inline-flex min-h-11 items-center rounded-full bg-cr-orange px-4 py-2 text-sm font-bold text-cr-white transition hover:brightness-110 md:px-5"
+            className="hidden min-h-11 items-center rounded-full bg-cr-orange px-5 py-2 text-sm font-bold text-cr-white transition hover:brightness-110 lg:inline-flex"
           >
-            <span className="md:hidden">Book</span>
-            <span className="hidden md:inline">Find My Perfect Tour</span>
+            Find My Perfect Tour
           </Link>
           <MobileNav />
         </div>
