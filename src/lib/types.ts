@@ -68,6 +68,7 @@ export type SiteContent = {
     points: string[];
     closing: string;
     mission: string;
+    image: string;
     ctaTitle: string;
     ctaBody: string;
   };

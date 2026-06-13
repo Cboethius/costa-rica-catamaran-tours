@@ -2,9 +2,11 @@
 
 Marketing and inquiry website for catamaran tours along Costa Rica's Gold Coast (Flamingo & Tamarindo). Visitors browse tours and send booking inquiries; you manage content and assign internal providers from a password-protected admin area.
 
+**Repository:** [github.com/Cboethius/costa-rica-catamaran-tours](https://github.com/Cboethius/costa-rica-catamaran-tours)
+
 ## Stack
 
-- Next.js 16 (App Router)
+- Next.js 15 (App Router)
 - Tailwind CSS 4
 - JSON file storage (local `data/` in dev, Vercel Blob in production)
 - Vercel Blob for image uploads in admin (production)
@@ -20,7 +22,7 @@ npm run dev
 
 Open **[http://localhost:3020](http://localhost:3020)** in your browser.
 
-> **Note:** Port 3020 is used so this site does not clash with other projects on port 3000. If you already ran `npm run dev` before this change, check the terminal — it may say port **3001** instead. Use whichever URL the terminal prints.
+> **Note:** `npm run dev` clears the `.next` cache and always starts on port **3020** (via `scripts/start-dev.mjs`).
 
 ### Environment variables
 
@@ -34,6 +36,12 @@ Copy `.env.example` to `.env.local` and set `ADMIN_PASSWORD` before using admin.
 ### Seed data
 
 Initial content is loaded from `data/*.json`. To reset from defaults:
+
+```bash
+npm run seed
+```
+
+Or manually:
 
 ```bash
 npx tsx -e "
@@ -55,6 +63,7 @@ writeFileSync(join(dir, 'tours.json'), JSON.stringify(defaultTours, null, 2));
 | `/` | Homepage with all marketing sections |
 | `/tours/[slug]` | Individual tour detail |
 | `/book` | Inquiry form (no payment) |
+| `/faq` | Frequently asked questions |
 | `/success` | Inquiry confirmation |
 | `/admin` | CMS (not linked in navigation) |
 

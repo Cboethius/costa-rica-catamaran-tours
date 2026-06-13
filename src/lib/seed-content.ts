@@ -165,6 +165,7 @@ export const defaultSiteContent: SiteContent = {
     ],
     closing: "Think of us as your personal catamaran concierge.",
     mission: "Our mission is simple: To help you find the perfect day on the water.",
+    image: stockImages.beach,
     ctaTitle: "Ready To Experience Costa Rica's Most Memorable Adventure?",
     ctaBody:
       "Whether you're looking for a shared sunset cruise, a private family charter or a luxury full-day experience, we'll help you find the perfect catamaran.",

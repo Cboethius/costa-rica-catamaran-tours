@@ -53,28 +53,53 @@ export function WhyBookSection({ content }: { content: SiteContent["whyBook"] })
   return (
     <RevealSection
       id="why-us"
-      className="section-anchor section-padding bg-cr-blue text-cr-white"
+      className="section-anchor bg-cr-blue"
       delay={50}
     >
       <div className="mx-auto max-w-6xl px-4 md:px-6">
-        <SectionHeader
-          eyebrow={content.subtitle}
-          title={content.title}
-          subtitle={content.intro.replace(" We:", ".")}
-          light
-        />
-        <ul className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {content.points.map((point) => (
-            <li
-              key={point}
-              className="flex gap-2 rounded-xl border border-cr-white/15 bg-cr-white/5 p-4 text-sm text-cr-white/90"
-            >
-              <span className="font-bold text-cr-green">✓</span> {point}
-            </li>
-          ))}
-        </ul>
-        <p className="mt-8 max-w-2xl text-lg text-cr-white/90">{content.closing}</p>
-        <p className="mt-2 max-w-2xl font-bold text-cr-white/95">{content.mission}</p>
+        <div className="relative overflow-hidden">
+          <div className="absolute inset-0">
+            <Image
+              src={content.image}
+              alt="Catamaran sailing along Costa Rica's Gold Coast"
+              fill
+              className="object-cover object-[25%_top]"
+              sizes="(max-width: 1152px) 100vw, 1152px"
+            />
+            <div
+              aria-hidden
+              className="absolute inset-0 bg-[linear-gradient(90deg,#002b7f_0%,#002b7f_10%,rgb(0_43_127/0.92)_22%,rgb(0_43_127/0.55)_42%,rgb(0_43_127/0.12)_52%,transparent_58%)]"
+            />
+          </div>
+          <div className="relative z-10 max-w-xl px-5 py-8 text-cr-white md:px-8 md:py-10">
+            <p className="text-[0.65rem] font-bold uppercase tracking-[0.18em] text-cr-white/90 md:text-xs">
+              {content.subtitle}
+            </p>
+            <h2 className="mt-1.5 font-[family-name:var(--font-fraunces)] text-xl font-bold leading-tight md:text-2xl">
+              {content.title}
+            </h2>
+            <p className="mt-2 text-xs leading-relaxed text-cr-white/95 md:text-sm">
+              {content.intro.replace(" We:", ".")}
+            </p>
+            <ul className="mt-4 space-y-1.5">
+              {content.points.map((point) => (
+                <li
+                  key={point}
+                  className="flex gap-2 px-2.5 py-2 text-xs text-cr-white/95"
+                >
+                  <span className="shrink-0 font-bold text-cr-green">✓</span>
+                  {point}
+                </li>
+              ))}
+            </ul>
+            <p className="mt-4 text-xs text-cr-white/95 md:text-sm">
+              {content.closing}
+            </p>
+            <p className="mt-1 text-xs font-bold text-white md:text-sm">
+              {content.mission}
+            </p>
+          </div>
+        </div>
       </div>
     </RevealSection>
   );
