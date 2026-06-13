@@ -1,0 +1,475 @@
+[
+  {
+    "id": "morning-cruise",
+    "slug": "morning-cruise",
+    "name": "Morning Cruise",
+    "type": "shared",
+    "duration": "",
+    "highlights": [
+      "Calm morning seas & ocean views",
+      "Snorkeling, swimming & paddleboarding",
+      "Fresh food & drinks included",
+      "Perfect for couples, families, and solo travelers"
+    ],
+    "description": "Start your day with sunshine, calm seas and unforgettable ocean views.\n\nEnjoy a relaxed morning sailing adventure including snorkeling, swimming, paddleboarding, freshly prepared food and drinks.\n\nPerfect for couples, families, and solo travelers who want to experience Costa Rica's coastline before spending the afternoon exploring.",
+    "longDescription": "Start your day with sunshine, calm seas and unforgettable ocean views.\n\nEnjoy a relaxed morning sailing adventure including snorkeling, swimming, paddleboarding, freshly prepared food and drinks.\n\nPerfect for couples, families, and solo travelers who want to experience Costa Rica's coastline before spending the afternoon exploring.\n\nApproximate duration: 4 hours. Check-in 30–45 minutes before departure. Departure around 8am, return around midday.",
+    "image": "/images/catamaran-hero.jpg",
+    "active": true,
+    "sortOrder": 1,
+    "priceUsd": null,
+    "details": {
+      "overview": "Start your day with sunshine, calm seas and unforgettable ocean views. A relaxed morning sailing adventure along Guanacaste's Gold Coast — perfect for couples, families, and solo travelers who want to experience Costa Rica's coastline before spending the afternoon exploring.",
+      "schedule": {
+        "duration": "Approximate Duration: 4 Hours",
+        "checkIn": "30–45 minutes before departure",
+        "departure": "Morning | Est 8am",
+        "returnTime": "Around Midday",
+        "note": "Exact departure and return times vary slightly depending on vessel, weather conditions and marina location. Your confirmed itinerary will be provided at the time of booking."
+      },
+      "daySteps": [
+        {
+          "title": "Check-In & Welcome",
+          "body": "Your adventure begins at the marina, where our friendly crew will welcome you and assist with boarding. Depending on your selected tour and departure location, check-in typically takes place 30–45 minutes before departure.\n\nOnce aboard, you'll receive a brief safety orientation, be introduced to the crew, and have time to settle in with your first refreshing drink before setting sail."
+        },
+        {
+          "title": "Sailing The Gold Coast",
+          "body": "As we leave the marina behind, you'll experience some of the most spectacular coastal scenery in Costa Rica.\n\nRelax on deck as we sail past secluded beaches, dramatic cliffs, tropical forests and hidden coves that can only be accessed by boat.\n\nKeep your eyes on the water—dolphins, sea turtles, devil rays and even whales (seasonal) are regularly spotted along the coastline."
+        },
+        {
+          "title": "Snorkeling, Swimming & Water Activities",
+          "body": "After approximately 90 minutes of sailing, we'll arrive at a beautiful protected bay selected for the day's best conditions.\n\nHere you'll have the opportunity to:",
+          "bullets": [
+            "Snorkel amongst tropical marine life",
+            "Swim in warm Pacific waters",
+            "Try stand-up paddleboarding",
+            "Relax on deck and soak up the sunshine",
+            "Explore secluded beaches and coves"
+          ]
+        },
+        {
+          "title": "Freshly Prepared Food & Open Bar",
+          "body": "While guests enjoy the water activities, our crew prepares a delicious meal and refreshments.\n\nDepending on your selected tour, this may include:",
+          "bullets": [
+            "Fresh fruit",
+            "Snacks and appetizers",
+            "Local specialties",
+            "Buffet-style meals",
+            "Open bar with beer, wine, cocktails, soft drinks and juices"
+          ]
+        },
+        {
+          "title": "Return Sailing",
+          "body": "After a relaxing morning on the water, we'll raise anchor and begin our return journey along the Guanacaste coastline.\n\nThis is the perfect time to sit back with your favourite drink, listen to music, take photographs and enjoy the incredible scenery in the calm morning light before returning to the marina around midday."
+        }
+      ],
+      "included": [
+        "Round-trip transportation available",
+        "Professional captain and crew",
+        "Snorkeling equipment",
+        "Paddleboards",
+        "Swimming opportunities",
+        "Freshly prepared meals",
+        "Open bar",
+        "Safety equipment",
+        "Wildlife watching opportunities"
+      ],
+      "bring": [
+        "Swimsuit",
+        "Towel",
+        "Sunglasses",
+        "Sunscreen",
+        "Camera"
+      ]
+    }
+  },
+  {
+    "id": "sunset-cruise",
+    "slug": "sunset-cruise",
+    "name": "Afternoon Sunset Cruise",
+    "type": "shared",
+    "duration": "",
+    "highlights": [
+      "Our most popular experience",
+      "Snorkeling in a secluded bay",
+      "Pacific sunset from the deck",
+      "Perfect for couples, families, and solo travelers"
+    ],
+    "description": "Our most popular experience.\n\nSpend the afternoon sailing the Pacific Ocean before dropping anchor in a secluded bay for snorkeling and water activities.\n\nAs the day comes to an end, sit back with your favourite drink and watch the sky explode into shades of orange, pink and gold as the sun sets over the Pacific.\n\nIt's a Costa Rica bucket-list experience — perfect for couples, families, and solo travelers.",
+    "longDescription": "Our most popular experience.\n\nSpend the afternoon sailing the Pacific Ocean before dropping anchor in a secluded bay for snorkeling and water activities.\n\nAs the day comes to an end, sit back with your favourite drink and watch the sky explode into shades of orange, pink and gold as the sun sets over the Pacific.\n\nIt's a Costa Rica bucket-list experience — perfect for couples, families, and solo travelers.\n\nApproximate duration: 4–5 hours. Check-in 30–45 minutes before departure. Departure early afternoon around 2pm, return shortly after sunset.",
+    "image": "/images/catamaran-hero.jpg",
+    "active": true,
+    "sortOrder": 2,
+    "priceUsd": null,
+    "details": {
+      "overview": "Our most popular experience. Spend the afternoon sailing the Pacific Ocean before dropping anchor in a secluded bay for snorkeling and water activities — then watch the sky explode into shades of orange, pink and gold as the sun sets over the Pacific. A Costa Rica bucket-list experience for couples, families, and solo travelers.",
+      "schedule": {
+        "duration": "Approximate Duration: 4–5 Hours",
+        "checkIn": "30–45 minutes before departure",
+        "departure": "Early Afternoon | Est 2pm",
+        "returnTime": "Shortly After Sunset",
+        "note": "Exact departure and return times vary slightly depending on vessel, weather conditions and marina location. Your confirmed itinerary will be provided at the time of booking."
+      },
+      "daySteps": [
+        {
+          "title": "Check-In & Welcome",
+          "body": "Your adventure begins at the marina, where our friendly crew will welcome you and assist with boarding. Depending on your selected tour and departure location, check-in typically takes place 30–45 minutes before departure.\n\nOnce aboard, you'll receive a brief safety orientation, be introduced to the crew, and have time to settle in with your first refreshing drink before setting sail."
+        },
+        {
+          "title": "Sailing The Gold Coast",
+          "body": "As we leave the marina behind, you'll experience some of the most spectacular coastal scenery in Costa Rica.\n\nRelax on deck as we sail past secluded beaches, dramatic cliffs, tropical forests and hidden coves that can only be accessed by boat.\n\nKeep your eyes on the water—dolphins, sea turtles, devil rays and even whales (seasonal) are regularly spotted along the coastline."
+        },
+        {
+          "title": "Snorkeling, Swimming & Water Activities",
+          "body": "After approximately 90 minutes of sailing, we'll arrive at a beautiful protected bay selected for the day's best conditions.\n\nHere you'll have the opportunity to:",
+          "bullets": [
+            "Snorkel amongst tropical marine life",
+            "Swim in warm Pacific waters",
+            "Try stand-up paddleboarding",
+            "Relax on deck and soak up the sunshine",
+            "Explore secluded beaches and coves"
+          ]
+        },
+        {
+          "title": "Freshly Prepared Food & Open Bar",
+          "body": "While guests enjoy the water activities, our crew prepares a delicious meal and refreshments.\n\nDepending on your selected tour, this may include:",
+          "bullets": [
+            "Fresh fruit",
+            "Snacks and appetizers",
+            "Local specialties",
+            "Buffet-style meals",
+            "Open bar with beer, wine, cocktails, soft drinks and juices"
+          ]
+        },
+        {
+          "title": "Return Sailing",
+          "body": "After a relaxing afternoon on the water, we'll raise anchor and begin our return journey along the Guanacaste coastline.\n\nThis is often the perfect time to sit back with your favourite drink, listen to music, take photographs and enjoy the incredible scenery.\n\nGuests on afternoon tours are treated to one of Costa Rica's most famous experiences—a spectacular Pacific sunset painted across the horizon."
+        }
+      ],
+      "included": [
+        "Round-trip transportation available",
+        "Professional captain and crew",
+        "Snorkeling equipment",
+        "Paddleboards",
+        "Swimming opportunities",
+        "Freshly prepared meals",
+        "Open bar",
+        "Safety equipment",
+        "Wildlife watching opportunities"
+      ],
+      "bring": [
+        "Swimsuit",
+        "Towel",
+        "Sunglasses",
+        "Sunscreen",
+        "Camera"
+      ]
+    }
+  },
+  {
+    "id": "full-day",
+    "slug": "full-day",
+    "name": "Full Day Adventure",
+    "type": "shared",
+    "duration": "",
+    "highlights": [
+      "Extended sailing along the Gold Coast",
+      "Multiple swim & snorkel stops",
+      "Full meal & open bar all day",
+      "Perfect for couples, families, and solo travelers"
+    ],
+    "description": "The ultimate Gold Coast experience. A full day on the water with extended sailing, multiple swim stops, snorkeling, paddleboarding, a full meal and open bar. Perfect for couples, families, and solo travelers who want to soak up every moment of Costa Rica's Pacific paradise.",
+    "longDescription": "The ultimate Gold Coast experience. A full day on the water with extended sailing, multiple swim stops, snorkeling, paddleboarding, a full meal and open bar.\n\nPerfect for couples, families, and solo travelers.\n\nApproximate duration: 7–8 hours. Check-in 30–45 minutes before departure. Departure late morning around 11am, return early evening.",
+    "image": "/images/catamaran-beach.jpg",
+    "active": true,
+    "sortOrder": 3,
+    "priceUsd": null,
+    "details": {
+      "overview": "The ultimate Gold Coast experience. A full day on the water with extended sailing, multiple swim and snorkel stops, paddleboarding, a full meal and open bar — perfect for couples, families, and solo travelers who want to soak up every moment of Costa Rica's Pacific paradise.",
+      "schedule": {
+        "duration": "Approximate Duration: 7–8 Hours",
+        "checkIn": "30–45 minutes before departure",
+        "departure": "Late Morning | Est 11am",
+        "returnTime": "Early Evening",
+        "note": "Exact departure and return times vary slightly depending on vessel, weather conditions and marina location. Your confirmed itinerary will be provided at the time of booking."
+      },
+      "daySteps": [
+        {
+          "title": "Check-In & Welcome",
+          "body": "Your adventure begins at the marina, where our friendly crew will welcome you and assist with boarding. Depending on your selected tour and departure location, check-in typically takes place 30–45 minutes before departure.\n\nOnce aboard, you'll receive a brief safety orientation, be introduced to the crew, and have time to settle in with your first refreshing drink before setting sail."
+        },
+        {
+          "title": "Sailing The Gold Coast",
+          "body": "As we leave the marina behind, you'll experience some of the most spectacular coastal scenery in Costa Rica.\n\nRelax on deck as we sail past secluded beaches, dramatic cliffs, tropical forests and hidden coves — with extended time on the water to visit multiple locations along the Gold Coast.\n\nKeep your eyes on the water—dolphins, sea turtles, devil rays and even whales (seasonal) are regularly spotted along the coastline."
+        },
+        {
+          "title": "Snorkeling, Swimming & Water Activities",
+          "body": "Throughout the day we'll visit beautiful protected bays selected for the best conditions, with multiple opportunities to:",
+          "bullets": [
+            "Snorkel amongst tropical marine life",
+            "Swim in warm Pacific waters",
+            "Try stand-up paddleboarding",
+            "Relax on deck and soak up the sunshine",
+            "Explore secluded beaches and coves"
+          ]
+        },
+        {
+          "title": "Freshly Prepared Food & Open Bar",
+          "body": "Our crew prepares a full day of delicious meals and refreshments throughout your adventure, including:",
+          "bullets": [
+            "Fresh fruit",
+            "Snacks and appetizers",
+            "Local specialties",
+            "Buffet-style meals",
+            "Open bar with beer, wine, cocktails, soft drinks and juices"
+          ]
+        },
+        {
+          "title": "Return Sailing",
+          "body": "After a full day on the water, we'll begin our return journey along the Guanacaste coastline.\n\nSit back with your favourite drink, enjoy music and photographs, and soak in the final hours of Pacific sunshine before returning to the marina in the early evening."
+        }
+      ],
+      "included": [
+        "Round-trip transportation available",
+        "Professional captain and crew",
+        "Snorkeling equipment",
+        "Paddleboards",
+        "Swimming opportunities",
+        "Freshly prepared meals",
+        "Open bar",
+        "Safety equipment",
+        "Wildlife watching opportunities"
+      ],
+      "bring": [
+        "Swimsuit",
+        "Towel",
+        "Sunglasses",
+        "Sunscreen",
+        "Camera"
+      ]
+    }
+  },
+  {
+    "id": "private-charter",
+    "slug": "private-charter",
+    "name": "Private Charter",
+    "type": "private",
+    "duration": "",
+    "highlights": [
+      "Your boat, your itinerary",
+      "Perfect for groups & celebrations",
+      "Professional crew handles everything",
+      "Perfect for couples, families, and solo travelers"
+    ],
+    "description": "Your boat. Your day. Your adventure.\n\nEnjoy the freedom to create your own experience while our professional crew takes care of everything.\n\nLuxury, privacy and unforgettable memories await — perfect for couples, families, and solo travelers.",
+    "longDescription": "Want something truly special? Our private catamaran charters are perfect for families, wedding groups, honeymoons, corporate events, birthday celebrations, bachelor & bachelorette parties, and multi-generational family gatherings.\n\nEnjoy the freedom to create your own experience while our professional crew takes care of everything. Luxury, privacy and unforgettable memories await — perfect for couples, families, and solo travelers.",
+    "image": "/images/catamaran-hero.jpg",
+    "active": true,
+    "sortOrder": 4,
+    "priceUsd": null,
+    "details": {
+      "overview": "Your boat. Your day. Your adventure. Enjoy complete privacy and a fully customized itinerary while our professional crew takes care of everything — perfect for families, wedding groups, honeymoons, corporate events, celebrations, and multi-generational gatherings.",
+      "schedule": {
+        "duration": "Flexible — Typically 4–8 Hours",
+        "checkIn": "30–45 minutes before departure",
+        "departure": "Customized to your group",
+        "returnTime": "Customized to your itinerary",
+        "note": "Private charters are tailored to your occasion, group size, and preferences. Your confirmed itinerary and timing will be provided at booking."
+      },
+      "daySteps": [
+        {
+          "title": "Check-In & Welcome",
+          "body": "Your private adventure begins at the marina, where our crew welcomes your group aboard your exclusive catamaran.\n\nAfter a safety briefing, you'll discuss the day's plan with the captain — whether that means extra snorkeling time, a sunset toast, beach stops, or a leisurely cruise tailored entirely to you."
+        },
+        {
+          "title": "Your Custom Gold Coast Experience",
+          "body": "Sail past hidden beaches, tropical islands, volcanic coastline and secluded bays accessible only by boat.\n\nYour itinerary may include snorkeling, swimming, paddleboarding, wildlife watching, beach time, and gourmet dining — all at your pace."
+        },
+        {
+          "title": "Celebration & Relaxation",
+          "body": "Whether you're marking a special occasion or simply enjoying time with loved ones, the crew handles every detail — from meal service and open bar to music, photography moments and surprise touches you request in advance."
+        },
+        {
+          "title": "Return To Marina",
+          "body": "When your group is ready, we'll sail back along the coastline. Morning, sunset, and full-day private charters are all available — we'll match the perfect vessel and schedule to your vision."
+        }
+      ],
+      "included": [
+        "Round-trip transportation available",
+        "Professional captain and crew",
+        "Snorkeling equipment",
+        "Paddleboards",
+        "Swimming opportunities",
+        "Freshly prepared meals",
+        "Open bar",
+        "Safety equipment",
+        "Wildlife watching opportunities",
+        "Private use of the catamaran for your group",
+        "Customizable itinerary with captain consultation",
+        "Ideal for special occasions and celebrations"
+      ],
+      "bring": [
+        "Swimsuit",
+        "Towel",
+        "Sunglasses",
+        "Sunscreen",
+        "Camera"
+      ]
+    }
+  },
+  {
+    "id": "scuba-diving",
+    "slug": "scuba-diving",
+    "name": "Scuba Diving",
+    "type": "shared",
+    "duration": "",
+    "highlights": [
+      "Half-day diving adventures",
+      "Explore Guanacaste's underwater world",
+      "Options for certified divers & beginners",
+      "Perfect for couples, families, and solo travelers"
+    ],
+    "description": "Discover Costa Rica beneath the surface. Half-day scuba diving experiences along the Pacific coast, with options for certified divers and those looking to try diving for the first time.\n\nEach dive trip varies by site, conditions, and operator — we'll help you find the best fit for your dates and experience level. Perfect for couples, families, and solo travelers.",
+    "longDescription": "Discover Costa Rica beneath the surface. Half-day scuba diving experiences along the Pacific coast, with options for certified divers and those looking to try diving for the first time.\n\nEach dive trip varies by site, conditions, and operator — we'll help you find the best fit for your dates and experience level.\n\nPerfect for couples, families, and solo travelers.\n\nDuration and itinerary depend on the selected dive operator and your group's experience. Contact us with your preferred dates and we'll confirm availability and details.",
+    "image": "/images/scuba-diving.jpg",
+    "active": true,
+    "sortOrder": 5,
+    "priceUsd": null,
+    "details": {
+      "overview": "Discover Costa Rica beneath the surface. Half-day scuba diving experiences along the Pacific coast, with options for certified divers and those looking to try diving for the first time. Perfect for couples, families, and solo travelers — we'll help you find the best operator for your dates and experience level.",
+      "schedule": {
+        "duration": "Approximate Duration: Half Day (4–5 Hours)",
+        "checkIn": "30–45 minutes before departure",
+        "departure": "Morning or afternoon — varies by operator",
+        "returnTime": "Early or late afternoon",
+        "note": "Duration, dive sites, and departure times depend on the selected dive operator, conditions, and your group's certification level. Confirmed details provided at booking."
+      },
+      "daySteps": [
+        {
+          "title": "Check-In & Briefing",
+          "body": "Meet your dive operator at the designated marina or dive center. Complete paperwork, receive equipment fitting, and join a safety and dive briefing tailored to your experience level — whether you're a certified diver or trying a discover dive for the first time."
+        },
+        {
+          "title": "Boat Transfer To Dive Site",
+          "body": "Board the dive boat and cruise to one of Guanacaste's Pacific dive sites. Your crew selects locations based on conditions, visibility, and the day's plan."
+        },
+        {
+          "title": "Diving & Underwater Exploration",
+          "body": "Explore Costa Rica's underwater world with your guide. Certified divers enjoy reef and rock formations teeming with tropical fish, rays, and seasonal marine life. Beginners follow a structured introduction with close instructor supervision."
+        },
+        {
+          "title": "Surface Interval & Return",
+          "body": "Between dives or after your session, enjoy snacks and water on board while sharing the day's highlights. Return to the marina with unforgettable memories from beneath the Pacific."
+        }
+      ],
+      "included": [
+        "Professional dive guide or instructor",
+        "Scuba equipment rental (BCD, regulator, tank, weights)",
+        "Boat transportation to dive site",
+        "Safety briefing and in-water supervision",
+        "Snacks and water on board (varies by operator)"
+      ],
+      "bring": [
+        "Swimsuit",
+        "Towel",
+        "Reef-safe sunscreen",
+        "Certification card (certified divers)",
+        "Logbook (optional)",
+        "Motion sickness medication if prone to seasickness",
+        "Dry change of clothes"
+      ]
+    }
+  },
+  {
+    "id": "freediving",
+    "slug": "freediving",
+    "name": "Freediving",
+    "type": "shared",
+    "duration": "",
+    "highlights": [
+      "Half-day breath-hold adventures",
+      "Explore Costa Rica's clear Pacific waters",
+      "Options for certified freedivers & beginners",
+      "Perfect for couples, families, and solo travelers"
+    ],
+    "description": "Experience the ocean on a single breath. Half-day freediving experiences along Costa Rica's Pacific coast, with options for certified freedivers and those new to the sport.\n\nEach session varies by site, conditions, and operator — we'll help you find the best fit for your dates and experience level. Perfect for couples, families, and solo travelers.",
+    "longDescription": "Experience the ocean on a single breath. Half-day freediving experiences along Costa Rica's Pacific coast, with options for certified freedivers and those new to the sport.\n\nEach session varies by site, conditions, and operator — we'll help you find the best fit for your dates and experience level.\n\nPerfect for couples, families, and solo travelers.\n\nDuration and itinerary depend on the selected operator and your group's experience. Contact us with your preferred dates and we'll confirm availability and details.",
+    "image": "/images/freediving.jpg",
+    "active": true,
+    "sortOrder": 6,
+    "priceUsd": null,
+    "details": {
+      "overview": "Experience the ocean on a single breath. Half-day freediving experiences along Costa Rica's clear Pacific waters, with options for certified freedivers and those new to the sport. Perfect for couples, families, and solo travelers — we'll match you with the right operator for your dates and ability.",
+      "schedule": {
+        "duration": "Approximate Duration: Half Day (3–5 Hours)",
+        "checkIn": "30–45 minutes before departure",
+        "departure": "Morning or afternoon — varies by operator",
+        "returnTime": "Early or late afternoon",
+        "note": "Session length, depth, and departure times depend on the selected operator, conditions, and your experience level. Confirmed details provided at booking."
+      },
+      "daySteps": [
+        {
+          "title": "Check-In & Briefing",
+          "body": "Arrive at the marina or freediving center for registration and equipment check. Your instructor covers breath-hold safety, equalization, buddy protocols, and the plan for the session — whether you're certified or joining an introductory experience."
+        },
+        {
+          "title": "Boat Transfer To Site",
+          "body": "Travel by boat to a calm bay or open-water site chosen for visibility and conditions. Warm-up breathing exercises help you prepare for the session ahead."
+        },
+        {
+          "title": "Freediving Session",
+          "body": "Explore the Pacific on a single breath with line training, depth practice, or reef exploration depending on your level. Certified freedivers work on technique and depth; beginners learn fundamentals in a controlled, supervised environment."
+        },
+        {
+          "title": "Recovery & Return",
+          "body": "Rest, hydrate, and debrief with your instructor on board. Share the day's achievements before returning to the marina."
+        }
+      ],
+      "included": [
+        "Professional freediving instructor",
+        "Freediving equipment (mask, fins, wetsuit — varies by operator)",
+        "Boat transportation to dive site",
+        "Safety briefing and in-water supervision",
+        "Line training equipment where applicable",
+        "Snacks and water on board (varies by operator)"
+      ],
+      "bring": [
+        "Swimsuit",
+        "Towel",
+        "Reef-safe sunscreen",
+        "Certification card (certified freedivers)",
+        "Rash guard or wetsuit if you prefer your own",
+        "Motion sickness medication if prone to seasickness",
+        "Dry change of clothes"
+      ],
+      "spearfishing": {
+        "partnerName": "Freedive Costa Rica",
+        "partnerUrl": "https://www.freedivecostarica.com/spearfishing-costa-rica",
+        "location": "Plaza Conchal Shopping Center, 2nd Floor — Playa Tamarindo, Guanacaste",
+        "intro": "Our freediving experiences are delivered through Freedive Costa Rica — Costa Rica's first freediving and spearfishing school, based in Tamarindo. In addition to breath-hold training, they offer guided spearfishing courses and trips along the Gold Coast and offshore Pacific waters.",
+        "offerings": [
+          {
+            "title": "Discover Spearfishing",
+            "tagline": "The most eco-friendly and fun form of fishing",
+            "body": "Ideal if you want to try spearfishing without committing to a full course. You'll learn how to use a speargun safely and how to choose, stalk, and spear a fish — a perfect first taste of the sport."
+          },
+          {
+            "title": "Evolution Spearfishing Spearo Course",
+            "tagline": "Become a spearfisher and join an amazing community",
+            "body": "For beginners or those with a little experience who want to become autonomous spearfishers. Covers speargun use and maintenance, how to choose, catch, and handle fish, and the fundamentals to become self-sufficient in the sport."
+          },
+          {
+            "title": "Reef Spearfishing Trip",
+            "tagline": "Dive the local reefs and bring dinner to friends and family",
+            "body": "Visit top sites such as the Catalina Islands, Brumel Islands, and Potrero Bay. Cubera snappers, amberjacks, Spanish mackerel, and more are spotted regularly — plenty of action in waters known for abundance and variety."
+          },
+          {
+            "title": "Blue Water Spearfishing Trip",
+            "tagline": "Jump into massive schools of tunas and catch the fish of your dreams",
+            "body": "Drift in the open ocean miles from shore, hunting pelagic species in deep blue water. An unforgettable offshore experience when conditions and season align."
+          }
+        ],
+        "note": "Spearfishing courses and trips are operated by Freedive Costa Rica. Minimum age is typically 18 years. A valid Costa Rican underwater fishing license (INCOPESCA) is required for spearfishing activities — the operator can advise on arrangements. Mention your interest in spearfishing when you inquire and we'll confirm availability."
+      }
+    }
+  }
+]

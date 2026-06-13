@@ -1,0 +1,329 @@
+import { galleryImages, stockImages } from "./images";
+import type { SiteContent } from "./types";
+
+export const defaultSiteContent: SiteContent = {
+  hero: {
+    title: "Discover Costa Rica From The Ocean",
+    subtitle: "",
+    body: "Imagine sailing along Costa Rica's spectacular Gold Coast, drink in hand, warm tropical breeze on your face, and the Pacific Ocean stretching endlessly before you.",
+    tagline:
+      "Shared Tours • Private Charters • Sunset Cruises • Full Day Adventures",
+    departureLine: "Departing Daily from Flamingo & Tamarindo",
+    cta: "Find My Perfect Tour",
+    image: stockImages.hero,
+  },
+  whyCatamaran: {
+    title: "The One Experience Every Visitor Should Have In Costa Rica",
+    subtitle: "Why A Catamaran Tour?",
+    body: "The most beautiful day of your vacation starts here.\n\nCosta Rica is famous for its beaches, wildlife and Pura Vida lifestyle. The best way to experience all three is from the deck of a luxury catamaran.\n\nUnlike crowded land tours, a catamaran cruise combines adventure, relaxation, wildlife encounters, great food and stunning scenery into one incredible day.",
+    highlights: [
+      "Sailing along Guanacaste's spectacular coastline",
+      "Snorkeling with tropical fish and marine life",
+      "Paddleboarding in calm turquoise bays",
+      "Spotting dolphins, turtles and seasonal whales",
+      "Delicious freshly prepared meals",
+      "Open bar with cocktails, beer and soft drinks",
+      "Costa Rica's legendary Pacific sunsets",
+    ],
+    closing: "Every cruise is different. Every cruise is unforgettable.",
+  },
+  destinations: {
+    title: "Explore The Gold Coast Of Guanacaste",
+    subtitle: "Destinations",
+    body: "From the world-class marina at Flamingo to the famous beaches stretching to Tamarindo, Guanacaste is home to some of Costa Rica's most spectacular coastal scenery.",
+    sailPast: [
+      "Hidden beaches only accessible by boat",
+      "Tropical islands",
+      "Volcanic coastline",
+      "White sand bays",
+      "Remote snorkeling locations",
+    ],
+    wildlife: [
+      "Dolphins",
+      "Sea turtles",
+      "Devil rays",
+      "Manta rays",
+      "Humpback whales (seasonal)",
+    ],
+    closing: "Nature puts on a different show every day.",
+    image: stockImages.beach,
+  },
+  sharedTours: {
+    title: "Perfect For Couples, Families & Solo Travelers",
+    subtitle: "Tours",
+  },
+  privateCharters: {
+    title: "Your Boat. Your Day. Your Adventure.",
+    subtitle: "Private Charters",
+    intro: "Want something truly special?",
+    leadIn: "Our private catamaran charters are perfect for:",
+    body: "Enjoy the freedom to create your own experience while our professional crew takes care of everything.",
+    closing: "Luxury, privacy and unforgettable memories await.",
+    occasions: [
+      "Families",
+      "Wedding groups",
+      "Honeymoons",
+      "Corporate events",
+      "Birthday celebrations",
+      "Bachelor & Bachelorette parties",
+      "Multi-generational family gatherings",
+    ],
+    image: stockImages.sunset,
+  },
+  whatsIncluded: {
+    title: "Everything You Need For An Amazing Day At Sea",
+    subtitle: "What's Included?",
+    included: [
+      "Round-trip transportation available",
+      "Professional captain and crew",
+      "Snorkeling equipment",
+      "Paddleboards",
+      "Swimming opportunities",
+      "Freshly prepared meals",
+      "Open bar",
+      "Safety equipment",
+      "Wildlife watching opportunities",
+    ],
+    bring: ["Swimsuit", "Towel", "Sunglasses", "Sunscreen", "Camera"],
+  },
+  dayAtSea: {
+    title: "Your Day At Sea",
+    steps: [
+      {
+        title: "Check-In & Welcome",
+        body: "Your adventure begins at the marina, where our friendly crew will welcome you and assist with boarding. Depending on your selected tour and departure location, check-in typically takes place 30–45 minutes before departure.\n\nOnce aboard, you'll receive a brief safety orientation, be introduced to the crew, and have time to settle in with your first refreshing drink before setting sail.",
+      },
+      {
+        title: "Sailing The Gold Coast",
+        body: "As we leave the marina behind, you'll experience some of the most spectacular coastal scenery in Costa Rica.\n\nRelax on deck as we sail past secluded beaches, dramatic cliffs, tropical forests and hidden coves that can only be accessed by boat.\n\nKeep your eyes on the water—dolphins, sea turtles, devil rays and even whales (seasonal) are regularly spotted along the coastline.",
+      },
+      {
+        title: "Snorkeling, Swimming & Water Activities",
+        body: "After approximately 90 minutes of sailing, we'll arrive at a beautiful protected bay selected for the day's best conditions.\n\nHere you'll have the opportunity to:",
+        bullets: [
+          "Snorkel amongst tropical marine life",
+          "Swim in warm Pacific waters",
+          "Try stand-up paddleboarding",
+          "Relax on deck and soak up the sunshine",
+          "Explore secluded beaches and coves",
+        ],
+      },
+      {
+        title: "Freshly Prepared Food & Open Bar",
+        body: "While guests enjoy the water activities, our crew prepares a delicious meal and refreshments.\n\nDepending on your selected tour, this may include:",
+        bullets: [
+          "Fresh fruit",
+          "Snacks and appetizers",
+          "Local specialties",
+          "Buffet-style meals",
+          "Open bar with beer, wine, cocktails, soft drinks and juices",
+        ],
+      },
+      {
+        title: "Return Sailing",
+        body: "After a relaxing afternoon on the water, we'll raise anchor and begin our return journey along the Guanacaste coastline.\n\nThis is often the perfect time to sit back with your favourite drink, listen to music, take photographs and enjoy the incredible scenery.\n\nGuests on afternoon tours are treated to one of Costa Rica's most famous experiences—a spectacular Pacific sunset painted across the horizon.",
+      },
+    ],
+    durationsTitle: "Tour Durations",
+    durations: [
+      {
+        name: "Morning Cruise",
+        duration: "Approximate Duration: 4 Hours",
+        checkIn: "30–45 minutes before departure",
+        departure: "Morning | Est 8am",
+        return: "Around Midday",
+      },
+      {
+        name: "Afternoon Sunset Cruise",
+        duration: "Approximate Duration: 4–5 Hours",
+        checkIn: "30–45 minutes before departure",
+        departure: "Early Afternoon | Est 2pm",
+        return: "Shortly After Sunset",
+      },
+      {
+        name: "Full Day Adventure",
+        duration: "Approximate Duration: 7–8 Hours",
+        checkIn: "30–45 minutes before departure",
+        departure: "Late Morning | Est 11am",
+        return: "Early Evening",
+      },
+    ],
+    note: "Exact departure and return times vary slightly depending on vessel, weather conditions and marina location. Your confirmed itinerary will be provided at the time of booking.",
+  },
+  whyBook: {
+    title: "One Contact. All The Best Boats.",
+    subtitle: "Why Book With Costa Rica Catamaran Tours?",
+    intro:
+      "Instead of contacting multiple operators and hoping for availability, we do all the work for you. We:",
+    points: [
+      "Compare multiple catamarans",
+      "Find availability for your dates",
+      "Recommend the best option for your group",
+      "Arrange transportation if required",
+      "Answer all your questions",
+      "Secure your reservation",
+    ],
+    closing: "Think of us as your personal catamaran concierge.",
+    mission: "Our mission is simple: To help you find the perfect day on the water.",
+    ctaTitle: "Ready To Experience Costa Rica's Most Memorable Adventure?",
+    ctaBody:
+      "Whether you're looking for a shared sunset cruise, a private family charter or a luxury full-day experience, we'll help you find the perfect catamaran.",
+  },
+  contact: {
+    headline: "Contact Us Today",
+    details: [
+      "Flamingo & Tamarindo",
+      "WhatsApp Booking Assistance",
+      "Shared & Private Tours Available Daily",
+    ],
+    ctaLabel: "Find Your Perfect Catamaran Experience",
+  },
+  gallery: galleryImages,
+  faq: [
+    {
+      question: "How does booking work?",
+      answer:
+        "Send us an inquiry with your preferred dates, group size, and tour interest. We compare partner catamarans and operators, confirm availability, and send you options and pricing — no payment required upfront. Once you choose, we help secure your reservation.",
+    },
+    {
+      question: "Do I need to pay when I submit an inquiry?",
+      answer:
+        "No. We check availability across our partners and send you options and pricing before you confirm anything.",
+    },
+    {
+      question: "Where do tours depart from?",
+      answer:
+        "Catamaran tours depart daily from Flamingo and Tamarindo marinas in Guanacaste. Scuba and freediving sessions may depart from Tamarindo or nearby dive centers. Your confirmed itinerary includes the exact meeting point and check-in time.",
+    },
+    {
+      question: "What time should I arrive?",
+      answer:
+        "Check-in is typically 30–45 minutes before departure. Morning cruises usually depart around 8am; afternoon sunset cruises around 2pm; full-day adventures around 11am. Exact times vary by vessel and marina — your booking confirmation will specify.",
+    },
+    {
+      question: "How long are the different tours?",
+      answer:
+        "Morning cruises are approximately 4 hours. Afternoon sunset cruises run 4–5 hours. Full-day adventures are 7–8 hours. Private charters are flexible, typically 4–8 hours. Scuba and freediving are half-day experiences (3–5 hours). For full schedules, open any tour and click Details.",
+    },
+    {
+      question: "What's the difference between a morning cruise and a sunset cruise?",
+      answer:
+        "Morning cruises offer calm seas, cooler temperatures, and return around midday — great if you want the rest of the day free. Sunset cruises are our most popular option: afternoon sailing, snorkeling in a bay, and watching the Pacific sunset from the deck. Both include food, drinks, and water activities.",
+    },
+    {
+      question: "Why choose a catamaran tour in Costa Rica?",
+      answer:
+        "A catamaran cruise combines adventure, relaxation, wildlife, great food, and stunning scenery in one day. Unlike crowded land tours, you'll sail Guanacaste's Gold Coast, snorkel in turquoise bays, and enjoy open bar and freshly prepared meals — all from the deck of a luxury catamaran.",
+    },
+    {
+      question: "What areas do the catamarans sail?",
+      answer:
+        "Tours explore the Gold Coast of Guanacaste — from Flamingo marina to the beaches around Tamarindo. You'll sail past hidden beaches accessible only by boat, tropical islands, volcanic coastline, white sand bays, and remote snorkeling spots. The nearby Catalina Islands are surrounded by pristine indigo water and abundant marine life.",
+    },
+    {
+      question: "What wildlife might we see?",
+      answer:
+        "Dolphins, sea turtles, devil rays, and manta rays are spotted regularly along the coast. Humpback whales appear seasonally (roughly December–April and July–October). Every day on the water is different — nature puts on its own show.",
+    },
+    {
+      question: "What's included on a typical catamaran tour?",
+      answer:
+        "Most shared and private catamaran tours include a professional captain and crew, snorkeling equipment, paddleboards, swimming stops, freshly prepared meals, open bar (beer, wine, cocktails, soft drinks), and safety equipment. Round-trip transportation from your hotel can often be arranged — ask when you inquire.",
+    },
+    {
+      question: "What should I bring?",
+      answer:
+        "Bring a swimsuit, towel, sunglasses, sunscreen, and a camera. We provide snorkeling gear, meals, and drinks on catamaran tours. For scuba or freediving, bring reef-safe sunscreen and your certification card if certified. Each tour's Details page lists a full packing guide.",
+    },
+    {
+      question: "Is there an open bar?",
+      answer:
+        "Yes — most shared catamaran tours include an open bar with beer, wine, cocktails, soft drinks, and juices. Full-day adventures include open bar throughout the day. Private charters can customize bar preferences.",
+    },
+    {
+      question: "Is snorkeling gear provided?",
+      answer:
+        "Yes. Snorkeling equipment and paddleboards are included on catamaran tours. Crew selects protected bays based on the day's conditions for the best experience.",
+    },
+    {
+      question: "Are tours suitable for families and children?",
+      answer:
+        "Absolutely. Morning and full-day cruises are especially popular with families. Let us know the ages in your group when you inquire and we'll recommend the best boat and tour for your family.",
+    },
+    {
+      question: "Are tours good for solo travelers?",
+      answer:
+        "Yes. Shared catamaran cruises are a friendly, social way to experience the coast — many solo travelers join group tours and meet others on board. We can recommend the best option for your dates.",
+    },
+    {
+      question: "Can I book a private charter for a special occasion?",
+      answer:
+        "Private charters are perfect for families, wedding groups, honeymoons, corporate events, birthday celebrations, bachelor and bachelorette parties, and multi-generational gatherings. You get the whole boat and a customized itinerary — tell us your occasion when you inquire.",
+    },
+    {
+      question: "Can I book scuba diving or freediving through you?",
+      answer:
+        "Yes. We arrange half-day scuba diving and freediving experiences along the Pacific coast through trusted local operators. Options exist for certified divers and complete beginners. Mention your experience level and dates in your inquiry.",
+    },
+    {
+      question: "Do I need certification for scuba or freediving?",
+      answer:
+        "Certified divers can join guided dive sessions with their certification card. Discover and introductory options are available for beginners without prior experience — no certification needed to try. We'll match you with the right operator and program.",
+    },
+    {
+      question: "Is spearfishing available?",
+      answer:
+        "Yes — through our freediving partner Freedive Costa Rica in Tamarindo. They offer Discover Spearfishing intro sessions, full Spearo courses, reef spearfishing trips (Catalina Islands, Potrero Bay), and blue water offshore trips. Minimum age is 18 and a Costa Rican fishing license (INCOPESCA) is required. See the Freediving tour Details page or ask when you inquire.",
+    },
+    {
+      question: "Is transportation from my hotel included?",
+      answer:
+        "Round-trip transportation can be arranged for many catamaran tours and some dive trips. Include your hotel or location in your inquiry and we'll confirm availability and any additional cost for your dates.",
+    },
+    {
+      question: "How many people are on a shared tour?",
+      answer:
+        "Group sizes vary by vessel — typically from intimate groups on smaller catamarans to larger party boats. Tell us your preference (lively atmosphere vs. quieter experience) and we'll recommend the best fit.",
+    },
+    {
+      question: "What if the weather is bad or the sea is rough?",
+      answer:
+        "Safety always comes first. If conditions require a change, the captain or our team will contact you with rescheduling options. Guanacaste enjoys warm, calm waters most of the year, but Pacific conditions can vary.",
+    },
+    {
+      question: "What if I'm prone to seasickness?",
+      answer:
+        "Catamarans are stable twin-hull vessels and most guests do fine, especially in calm morning conditions. If you're sensitive, consider a morning cruise, take medication beforehand, and let the crew know — they're experienced at helping guests stay comfortable.",
+    },
+    {
+      question: "When is the best time to see whales?",
+      answer:
+        "Humpback whales migrate through Costa Rica's Pacific waters seasonally — typically December through April and again July through October. Wildlife sightings are never guaranteed, but these months offer the best chance.",
+    },
+    {
+      question: "Can I see tour schedules and what's included before booking?",
+      answer:
+        "Yes. Every tour on our homepage has a Details link with the full overview, duration and schedule, step-by-step day itinerary, what's included, and what to bring — specific to that tour.",
+    },
+  ],
+  testimonials: [
+    {
+      quote:
+        "Best day of our trip. The crew was fantastic and the sunset was unreal.",
+      author: "Emma",
+      location: "United Kingdom",
+    },
+    {
+      quote:
+        "We booked through one contact and they found the perfect boat for our family of six.",
+      author: "Michael",
+      location: "Canada",
+    },
+    {
+      quote:
+        "Snorkeling, open bar, and sailing the Gold Coast — exactly what we hoped for.",
+      author: "Laura",
+      location: "United States",
+    },
+  ],
+};

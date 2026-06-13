@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cr-blue: #002b7f;
+  --color-cr-blue-light: #eef2f9;
+  --color-cr-orange: #f97316;
+  --color-cr-green: #16a34a;
+  --color-cr-white: #ffffff;
+  --font-display: var(--font-fraunces);
+  --font-body: var(--font-inter);
+  --radius-card: 1rem;
+  --shadow-card: 0 4px 24px rgb(0 43 127 / 0.08);
+}
+
+:root {
+  --cr-blue: #002b7f;
+  --cr-blue-light: #eef2f9;
+  --cr-orange: #f97316;
+  --cr-green: #16a34a;
+  --cr-white: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal-visible {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .reveal-hidden {
+    opacity: 1;
+    transform: none;
+  }
+
+  .gallery-track {
+    animation: none;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .gallery-slideshow:hover .gallery-card:hover {
+    transform: none;
+  }
+}
+
+body {
+  background: var(--cr-white);
+  color: var(--cr-blue);
+}
+
+.section-anchor {
+  scroll-margin-top: 5rem;
+}
+
+.section-padding {
+  @apply py-14 md:py-20;
+}
+
+.section-muted {
+  @apply bg-cr-blue-light;
+}
+
+.card {
+  @apply overflow-hidden rounded-2xl border border-cr-blue/10 bg-cr-white shadow-[var(--shadow-card)];
+}
+
+.prose-width {
+  max-width: 65ch;
+}
+
+@keyframes gallery-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.gallery-track {
+  animation: gallery-marquee 36s linear infinite;
+}
+
+.gallery-track.is-paused {
+  animation-play-state: paused;
+}
+
+.gallery-card {
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.gallery-slideshow:hover .gallery-card:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  border-color: rgb(0 43 127 / 0.3);
+  box-shadow: 0 12px 40px rgb(0 43 127 / 0.18);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(2.5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal-visible {
+  animation: fade-up 0.75s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.reveal-hidden {
+  opacity: 0;
+  transform: translateY(2.5rem);
+}
